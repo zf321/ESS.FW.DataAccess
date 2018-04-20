@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ESS.FW.DataAccess</AssemblyName>
+    <RootNamespace>ESS.FW.DataAccess</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ESS.FW.Common.Autofac" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>
